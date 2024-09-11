@@ -11,8 +11,8 @@ const client = new ApolloClient({uri, cache});
 const App = () => {
   return (
     <ApolloProvider client={client}>
-      <View>
-        <Text>Graph QL::</Text>
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <Text>Graph QL</Text>
         <Home />
       </View>
     </ApolloProvider>
